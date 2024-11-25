@@ -8,10 +8,20 @@ h1 {
     font-size:xx-large;
     font-weight: 900;
     text-align:center;
+    font-family: "Parkinsans", sans-serif;
 }
+h2 {
+    color:#2a9d8f;
+    font-weight:bold;
+}
+   h4 {
+    color:#2a9d8f;
+    font-weight:bold;
+    font-size: x-large;
+   }
 
 p{
-    color: purple;
+    color:black;
 }
 
 li{
