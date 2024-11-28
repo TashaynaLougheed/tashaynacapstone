@@ -2,23 +2,52 @@
     background-color:#e9c46a;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    border-top: 10px dotted black;
 }
+
 h1 {
     color:#264653;
     font-size:xxx large;
     text-align:center;
     font-family: "Parkinsans", sans-serif;
 }
+
 h2 {
     color:#2a9d8f;
     margin-bottom:0;
 }
-   h4 {
+
+div a {
+ font-size: x-large;
+ text-align: center;
+}
+
+img {
+    border-top: 5px solid coral;
+    border-bottom: 5px solid coral;
+}
+
+h4 {
     color:black;
     font-size: x-large;
+    margin-bottom: 0;
    }
 
-p{
+.program-border {
+    background-color:#2a9d8f;
+    width:80%;
+    align-content: center;
+    margin-left: 10.5%;
+    margin-top: 20px;
+    border-top: 5px solid black;
+    border-bottom: 5px dotted black;
+}
+
+.program-title {
+    color: black;
+}
+
+p {
     color:black;
     line-height:1;
     font-size: larger;
@@ -31,24 +60,27 @@ font-size: x-large;
 font-weight: 600;
 font-style: italic;
 }
-div a {
- font-size: x-large;
- text-align: center;
+
+.program_mgv {
+background-color:#2a9d8f;
+width:80%;
+align-content:center;
+margin-left: 10.5%;
+margin-top:20px;
+margin-bottom: 20px;
+border-bottom: 5px solid black;
+border-top: 5px dotted black;
 }
+
+.program_header {
+    color: black;
+    margin-bottom: 0;
+}
+
 footer {
-background-color: #2a9d8f;
+background-color:coral;
 margin: 50px 50 0 50;
 padding: 10px;
-}
-.program-border {
-    background-color:#2a9d8f;
-    width:80%;
-    align-content: center;
-    margin-left: 10.5%;
-}
-.program-title {
-    color: black;
-}
-img {
-    border: 5px solid coral;
+border-top: 5px dotted black;
+border-bottom:10px dotted black;
 }
