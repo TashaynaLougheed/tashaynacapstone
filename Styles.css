@@ -1,8 +1,18 @@
+ header {
+    background-image: url("Images/Screenshot\ \(266\).png");
+    width: 100%;
+    height:100%;
+    background-size:contain;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    align-content: center;
+    padding: 10px;
+ }
  body {
     background-color:#e9c46a;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    border-top: 10px dotted black;
+    border-top: 15px dotted black;
 }
 
 h1 {
@@ -11,25 +21,34 @@ h1 {
     text-align:center;
     font-family: "Parkinsans", sans-serif;
 }
-
-h2 {
-    color:#2a9d8f;
-    margin-bottom:0;
+img {
+   border-top: 5px solid coral;
+   border-bottom: 5px solid coral;
 }
 
 div a {
- font-size: x-large;
- text-align: center;
-}
-
-img {
-    border-top: 5px solid coral;
-    border-bottom: 5px solid coral;
-}
-
-h4 {
-    color:black;
     font-size: x-large;
+    text-align: center;
+    border-style:ridge;
+}
+.about-nquatqua {
+    background-color: coral;
+    width:80%;
+    align-content: center;
+    margin-left: 10.5%;
+    margin-top:20px;
+    margin-bottom: 20px;
+    border-top: 10px solid #2a9d8f;
+    border-bottom: 10px solid #2a9d8f;
+}
+.five-photos {
+    display:block;
+    margin: 0 auto;
+}
+
+h4 { 
+    color:black;
+    font-size:larger;
     margin-bottom: 0;
    }
 
@@ -39,12 +58,9 @@ h4 {
     align-content: center;
     margin-left: 10.5%;
     margin-top: 20px;
-    border-top: 5px solid black;
-    border-bottom: 5px dotted black;
-}
-
-.program-title {
-    color: black;
+    border-top: 15px dotted coral;
+    border-bottom: 8px dotted coral;
+    text-align: center;
 }
 
 p {
@@ -52,35 +68,57 @@ p {
     line-height:1;
     font-size: larger;
     margin-top: 0;
-}
-
-ul li{
-color:coral;
-font-size: x-large;
-font-weight: 600;
-font-style: italic;
-}
-
-.program_mgv {
-background-color:#2a9d8f;
-width:80%;
-align-content:center;
-margin-left: 10.5%;
-margin-top:20px;
-margin-bottom: 20px;
-border-bottom: 5px solid black;
-border-top: 5px dotted black;
-}
-
-.program_header {
-    color: black;
     margin-bottom: 0;
 }
 
+ul li{
+    color:black;
+    font-size:larger;
+    font-weight: 600;
+    font-style: italic;
+}
+.house_cap_stay {
+    background-color: #2a9d8f;
+    width:80%;
+    align-content: center;
+    margin-left:10.5%;
+    margin-top:2%;
+    border-top: 8px dotted coral;
+    border-bottom: 10px dotted coral;
+}
+ h2 {
+    color: black;
+    margin-bottom:0;
+ }
+.program_mgv {
+    background-color:#2a9d8f;
+    width:80%;
+    align-content:center;
+    margin-left: 10.5%;
+    margin-top:2%;
+    border-bottom: 15px dotted coral;
+    border-top: 8px dotted coral;
+}
+.emergency-contact {
+    background-color: coral;
+    width: 80%;
+    align-content: center;
+    margin-left: 10.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 10px solid #2a9d8f;
+    border-bottom: 10px solid #2a9d8f;
+    line-height: 1;
+
+}
 footer {
-background-color:coral;
-margin: 50px 50 0 50;
-padding: 10px;
-border-top: 5px dotted black;
-border-bottom:10px dotted black;
+    background-image: url("./Images/logo-coral.png");
+    width: 100%;
+    height:100%;
+    background-size:contain;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    align-content: center;
+    padding: 10px;
+    border-bottom:15px dotted black;
 }
